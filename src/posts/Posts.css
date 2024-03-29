@@ -1,0 +1,55 @@
+.posts{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    /* border:1px solid red; */
+    margin-top: 20px;
+    
+}
+.mainPost{
+    
+}
+.content{
+    /* border:1px solid red; */
+    height:fit-content;
+    width:190px;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word
+
+}
+.content p{
+   
+   
+}
+.content img{
+    border-radius: 10px;
+}
+.delete{
+    height:30px;
+    width:100px;
+    padding:3px;
+    border-radius: 10px;
+    background-color: red;
+    color:white;
+    border:0px solid red;
+    margin-top: 10px;
+
+}
+.update{
+    height:30px;
+    width:100px;
+    padding:3px;
+    border-radius: 10px;
+    background-color: rgb(112, 238, 100);
+    color:white;
+    border:0px solid red;
+    margin-top: 10px;
+
+}
+@media only screen and (max-width: 767px) {
+    
+   
+}
+  

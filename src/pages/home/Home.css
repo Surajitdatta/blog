@@ -1,0 +1,15 @@
+.home{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+@media only screen and (max-width: 767px) {
+    .home{
+        display:flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+    }
+    
+  }

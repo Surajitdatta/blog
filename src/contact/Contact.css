@@ -1,0 +1,41 @@
+.profile{
+    height:300px;
+    width:300px;
+    border:2px solid blueviolet;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border-radius: 50% 20px;
+    box-shadow: 5px 4px 8px;
+}
+.image{
+    height: fit-content;
+    width:fit-content;
+    text-align: center;
+    font-family: cursive;
+
+}
+.image img{
+    height:100px;
+    width:100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border:2px solid rgb(137, 38, 153);
+    background:rgb(181, 30, 85);
+    padding: 5px;
+    
+    
+}
+.socialProfile ul{
+    display:flex;
+    gap:10px;
+}
+.socialProfile ul li{
+    list-style: none;
+}

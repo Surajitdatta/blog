@@ -1,0 +1,52 @@
+.top{
+    width:100%;
+    height:fit-content;
+    /* background:aqua; */
+    position:sticky;
+    top:0px;
+    display:flex;
+    align-items:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    z-index: 999;
+}
+.topLeft, .topRight{
+    flex:3;
+    /* background:pink; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+}
+.topCenter{
+    flex:6;
+    display:flex;
+    justify-content: center;
+
+}
+.topCenter ul{
+    display:flex;
+    justify-content: center;
+    /* color:white; */
+    gap:10px;
+    
+}
+.topCenter ul li {
+    list-style: none;
+    cursor:pointer;
+    
+    
+}
+.topCenter ul li .a{
+    text-decoration: none;
+    color:black;
+}
+.topImg{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    object-fit:cover;
+}
+.topIcon{
+    cursor:pointer;
+}
